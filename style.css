@@ -1,0 +1,78 @@
+body{
+    color: white;
+    background-color: black;
+    margin: 0px;
+    font-family:  "Oswald", sans-serif;
+    display: block;
+    margin-top: 100px;
+
+}
+
+header{
+    opacity: 0.5px;
+    border: solid 2px #9408088a;
+    padding: 15px;
+    font-size: 35px;
+    color: brown;
+}
+.chamada{
+    background: #ff9292cc;
+    background-image: url('https://i.pinimg.com/564x/e0/47/30/e04730ec8c785cb47be2b40f00acd0c2.jpg');
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir o elemento */
+    background-position: center; /* Centraliza a imagem no elemento */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.homem-aranha{
+    display: flex;
+    padding: auto;
+    margin: 20px;
+
+}
+
+.chamada-texto {
+    margin-right: 5%;
+    display: flexbox 10px ;
+    margin: 40px
+
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    left: 30px;
+    right: 20px;
+    width: auto;
+    color:#e96565 ;
+}
+
+p{
+    font-size: 20px;
+}
+.direito{
+    font-size: 0.1px;
+}
+.categoria-videos img {
+    opacity: 0.5;
+    display: flexbox;
+    overflow-x: auto;
+    gap: 5px;
+   
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 0.5px solid #ff00008a;
+
+}
+
+
+.categoria h2{
+    padding: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
